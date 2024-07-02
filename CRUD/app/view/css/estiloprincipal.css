@@ -1,0 +1,119 @@
+body {
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c56d16e0;
+    padding: 10px;
+    text-align: center;
+    background-image: url(app/view/img/animal.png);
+    background-size: cover;
+}
+
+.btn-group {
+    background-color: rgb(37, 40, 37);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    background-color: #000;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: white;
+    color: skyblue;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.slider-frame {
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+    margin: 20px auto;
+}
+
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 100%;
+    animation: slide 16s infinite;
+    list-style-type: none;
+    margin: 0;
+}
+
+.slider-frame li {
+    width: 100%;
+    flex: 1;
+}
+
+.slider-frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    12.5% { transform: translateX(-100%); }
+    25% { transform: translateX(-200%); }
+    37.5% { transform: translateX(-300%); }
+    50% { transform: translateX(-400%); }
+    62.5% { transform: translateX(-500%); }
+    75% { transform: translateX(-600%); }
+    87.5% { transform: translateX(-700%); }
+    100% { transform: translateX(0%); }
+}
+
+footer {
+    background-color: #4a4646;
+    color: #f82121;
+    text-align: center;
+    padding: 10px;
+}
+
+footer .redesociales {
+    color: #000;
+    text-align: right;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.img_header {
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+}
+
+.buttons a {
+    text-decoration: none;
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+    transform: scale(1.2);
+}

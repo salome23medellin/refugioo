@@ -1,0 +1,58 @@
+nav-link {
+
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+}.name{
+    position: absolute;
+    top: 70%;
+    font-size: 11px;
+    color: rgb(4, 7, 7);
+    font-weight: 800;
+}.titulo{
+    color: rgb(172, 105, 17);
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    color: black;
+
+}.btn-field {
+    background-color: #ffffff00;
+    color: #fff;
+    width: 8.5em;
+    height: 2.9em;
+    border: #3654ff 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover {
+    background-color: #3654ff;
+    cursor: pointer;
+  }
+  
+  .button svg {
+    width: 1.6em;
+    margin: -0.2em 0.8em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text {
+    margin: 0 1.5em
+  }
+  .registroForm{
+    color: coral;
+
+
+  }

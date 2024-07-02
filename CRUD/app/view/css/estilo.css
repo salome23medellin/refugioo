@@ -1,0 +1,131 @@
+
+
+body {
+    color: rgb(168, 112, 39);
+    background: url(/img/animal.png) center/cover no-repeat fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(130, 130, 73);
+}
+
+h5 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    color: black;
+}
+
+.header_main {
+    height: 50px;
+    background-color: #b32727;
+}
+
+.div_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.img_header {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.text {
+    margin: 0 20px;
+    font-size: 1.5rem;
+}
+
+.btn {
+    padding: 7px 25px;
+    background: #b32727;
+    border: 1px solid #66d489;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 15px;
+    background: transparent;
+    border-radius: 25px;
+}
+
+.btn-group {
+    display: flex;
+}
+
+.btn-group .btn {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-danger {
+    background-color: red;
+}
+
+.btn-warning {
+    background-color: orange;
+}
+
+.btn-success {
+    background-color: green;
+}
+
+.slider-frame {
+    width: 100%;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 800%;
+    animation: slide 14s infinite linear;
+}
+
+.slider-frame li {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.slider-frame img {
+    width: 100%;
+    height: auto;
+}
+
+
+header {
+    padding: 3px 0; /* Reduce padding to make the header smaller */
+}
+
+.titulo {
+    font-size: 1.9rem; /* Adjust the font size if needed */
+}
+
+.img_header {
+    max-height: 80px; /* Adjust the height to fit your needs */
+}
+
+.slider-frame ul {
+    animation: slide 30s infinite; /* Adjust the duration for slower sliding */
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    12.5% { transform: translateX(-100%); }
+    25% { transform: translateX(-200%); }
+    37.5% { transform: translateX(-300%); }
+    50% { transform: translateX(-400%); }
+    62.5% { transform: translateX(-500%); }
+    75% { transform: translateX(-600%); }
+    87.5% { transform: translateX(-700%); }
+    100% { transform: translateX(-800%); }
+}header{
+    color: burlywood;
+}form{ 
+    border-color: black;
+}
